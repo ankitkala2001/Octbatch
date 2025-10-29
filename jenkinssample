@@ -5,17 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hi All. This is Ankit Kala'
+                  }
+                       }        
             }
-        stage('test') {
-            steps {
-                echo 'This is a test'
-            }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying now'
-            }
-          }
-      }
-}
-}
-}
+           }
