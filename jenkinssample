@@ -6,6 +6,11 @@ pipeline {
             steps {
                 echo 'Hi All. This is Ankit Kala'
             }
-        }        
+        stage('test') {
+            steps {
+                echo 'Its a test'
+            }    
+        }
     }
+}
 }
